@@ -1,1 +1,105 @@
+public class TransactionInfo {
+    private String transactionId;
+    private String instructionReference;
+    private String state;
+    private LocalDate instructionDate;
+    private LocalDate partyInstructionDate;
+}
+
+public class InitiatorInfo {
+    private String initiatorCif;
+    private String initiatorName;
+    private String createdBy;
+    private String updatedBy;
+}
+
+public class ChannelInfo {
+    private String lob;
+    private String channelId;
+    private String channelSubId;
+}
+
+public class AccountInfo {
+    private String debitAccount;
+    private String debitAccountName;
+    private String debitAccountType;
+    private String debitCurrency;
+    private String creditAccount;
+    private String creditAccountName;
+    private String creditAccountType;
+    private String debitAccountS;
+    private String creditAccountS;
+}
+
+public class BankInfo {
+    private String debtorBankCode;
+    private String creditorBankCode;
+    private String debtorBankName;
+    private String creditorBankName;
+}
+
+public class AmountInfo {
+    private BigDecimal amount;
+    private BigDecimal insAmount;
+    private String amountType;
+    private String amountBreakup;
+}
+
+public class DateInfo {
+    private LocalDateTime createdTimestamp;
+    private LocalDateTime updatedTimestamp;
+    private LocalDate executionDate;
+    private LocalDate settlementDate;
+    private LocalDate archiveDate;
+}
+
+public class RoutingInfo {
+    private String debitRoutingCode;
+    private String creditRoutingCode;
+}
+
+public class CustomerInfo {
+    private String debitClientId;
+    private String creditClientId;
+    private String debitCustomerParty;
+    private String creditCustomerParty;
+}
+
+public class MemoInfo {
+    private String debitMemo;
+    private String debitMop;
+    private String creditMop;
+}
+
+public class ReturnInfo {
+    private String returnReasonCode;
+    private String returnInfo;
+    private String rejectReasonCode;
+    private String rejectInfo;
+    private Boolean uvwFlag;
+}
+
+public class ReferenceInfo {
+    private String parentReference;
+    private String addenda;
+}
+
+public class PaymentInfo {
+    private String paymentFreqType;
+    private String paymentType;
+    private String paymentFreq;
+}
+
+public class Identifiers {
+    private String debitIdentifier1;
+    private String creditIdentifier1;
+}
+
+public class AlternativeInfo {
+    private String alternativeName;
+}
+
+public class EntityInfo {
+    private String entity;
+}
 
